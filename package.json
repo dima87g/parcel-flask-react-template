@@ -1,0 +1,32 @@
+{
+  "name": "parcel-flask-react-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter template for React app using Flask server and Parcel bundler",
+  "scripts": {
+    "build_dev": "parcel watch src/main.js --dist-dir static",
+    "build": "parcel build src/main.js --dist-dir static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dima87g/parcel-flask-react-template.git"
+  },
+  "keywords": [
+    "Parcel",
+    "Flask",
+    "React"
+  ],
+  "author": "Dmitry Ostreykovsky <dima87g@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dima87g/parcel-flask-react-template/issues"
+  },
+  "homepage": "https://github.com/dima87g/parcel-flask-react-template#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
